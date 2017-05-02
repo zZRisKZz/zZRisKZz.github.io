@@ -1,3 +1,84 @@
 body {
-  
+  background-color:rgb(23, 23, 23);
+  margin:0;
+  padding:0;
 }
+
+.container{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 5%;
+  padding: 10px;
+}
+.filler{
+  width:100%;
+  height:100%;
+}
+
+.header{
+  width: 90%;
+  height: 50px;
+  background-color: orange;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2%;
+  padding: 5px;
+}
+
+.butn{
+  display: inline-block;
+  width: 32.95%;
+  height:100%;
+  background-color: red;
+  box-shadow: 0px 0px 10px inset;
+
+}
+
+.btn_title{
+  text-align: center;
+  margin:auto;
+  font-size: 40px;
+}
+
+.post{
+  width: 87.5%;
+  background-color: rgba(255,255,255,0.5);
+  margin: 5px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.post_header, .post_content, .post_feedback{
+  background-color: rgba(255,255,255,0.8);
+  margin: 2px;
+  padding: 5px;
+  box-shadow: 0px 0px 5px inset;
+}
+
+.prof_cont{
+  width:87.5%;
+}
+
+
+.prof_pic, .prof_info, .prof_cont{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  background-color: white;
+  box-shadow: 0px 0px 10px inset, 0px 0px 10px;
+}
+
+.prof_pic>img {
+  margin:auto;
+  display:block;
+}
+
+.prof_info {
+  text-align: center;
+  display:block;
+}
+
