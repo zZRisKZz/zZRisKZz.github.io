@@ -22,7 +22,7 @@ body {
   background-color: orange;
   margin-left: auto;
   margin-right: auto;
-  padding: 0px;
+  padding-left: 1px;
   font-size:0;
 }
 
@@ -38,7 +38,7 @@ body {
 .btn_title{
   text-align: center;
   margin:auto;
-  font-size: 100%;
+  font-size: 20px;
 }
 
 .post{
