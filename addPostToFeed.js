@@ -11,7 +11,6 @@ $(document).ready(function(){
   console.log(url[0]);
 
   $.getJSON(url[0], function(data) {
-    window.alert("getJSON");
     var entry = data.feed.entry;
 
     function addImg(parent, src){
