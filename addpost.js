@@ -63,8 +63,11 @@ function postText(){
   window.focus();
   setTimeout(function(){
     newW.close();
-  },3000);
+  },1000);
     
   alert("Publicación creada");
-  window.location.reload(true);
+  setTimeout(function(){
+    window.location.reload(true);
+  },2000);
+  
 }
