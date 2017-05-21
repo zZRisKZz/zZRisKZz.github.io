@@ -29,12 +29,17 @@ function postText(){
     inputName = (inputName + cookie[i]);
     i++;
   }
+
+  console.log(inpuName); // debug
+
   while(cookie[i] != ","){ i++;}
   var inputAvatar = "";
   while(cookie[i] != " "){
     inputAvatar = (inputAvatar + cookie[i]);
     i++;
   }
+
+  console.log(inputAvatar); // debug
 
 
   var inputType = "txt";
