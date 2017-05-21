@@ -2,7 +2,7 @@
 function check(){
 
   var spreadsheetID = [
-    "1SgwdgtRbZ4n0ooOad5HFgVx5E0gyOXRGCMM_ZM81p7o", //publicaciones
+    "12SFPWfhsKoof6EsiRzzDj7JSL8OkAGNbXftHnfJYZ0A", //publicaciones
   ];
   // Make sure it is public or set to Anyone with link can view
   var url = [
