@@ -1,7 +1,9 @@
+// new sh id 13zYolRSkyhaH0unoBILsvfN3RrOEEEVoeDwFtz2XhxY
+
 $(document).ready(function(){
   // ID of the Google Spreadsheet
   var spreadsheetID = [
-    "1CSoHZXaPYYZN-QK7BtXuQ7f47LeplkqXyJWPZXk9OS8", //publicaciones
+    "13zYolRSkyhaH0unoBILsvfN3RrOEEEVoeDwFtz2XhxY", //publicaciones
   ];
   // Make sure it is public or set to Anyone with link can view
   var url = [
@@ -68,7 +70,7 @@ $(document).ready(function(){
 
     function readData(parent) {
       var data = entry;
-      for(i = 6; i < data.length; i+=6){
+      for(i = 5; i < data.length; i+=5){
         var vData =  [
           data[i]["gs$cell"]["$t"],
           data[i+3]["gs$cell"]["$t"],
