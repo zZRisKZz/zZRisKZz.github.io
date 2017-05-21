@@ -4,7 +4,7 @@ Red social desarrollada para la asignatura Fundamentos de la Ingeniería del Sof
 
 ## Objetivo
 
-Realizar un proyecto de red social mediante una metodología de desarrollo ágil.
+Realizar un proyecto de red social mediante una metodología de desarrollo ágil, generando los documentos necesarios y siguiendo los principios establecidos.
 
 ## Funcionalidad
 
