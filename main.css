@@ -71,6 +71,7 @@ body {
   height:100vh;
   flex-direction:column;
   align-items:center;
+  overflow-x: hidden;
 }
 
 /**** PIE DE PÁGINA ****/
