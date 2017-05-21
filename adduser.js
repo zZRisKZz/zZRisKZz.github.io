@@ -1,18 +1,18 @@
-// NAME: entry.987406560
-// TIPO: entry.387654126
-// DATO: entry.858752437
-// FILE: https://docs.google.com/a/ull.edu.es/forms/d/e/1FAIpQLSdcWOj-6pJpZ0dp9WcHnCyG_-V5lBKkhGzoYLQKmRe8_aEnjw/formResponse
+// NAME: entry.335325075
+// TIPO: entry.270726639
+// DATO: entry.1972388673
+// FILE: https://docs.google.com/a/ull.edu.es/forms/d/e/1FAIpQLScmhoSniRprkX-ilWAru2JESiAq7ppBxHyzT3p_d1-qrxgdOg/formResponse
 
 function post(){
     var inputName = encodeURIComponent($('#username').val());
     var inputPasswd = encodeURIComponent($('#passwd').val());
     var inputImg = encodeURIComponent($('#avatar').val());
 
-    var entryName = "&entry.987406560=";
-    var entryPasswd = "&entry.387654126=";
-    var entryImg = "&entry.858752437=";
+    var entryName = "&entry.335325075=";
+    var entryPasswd = "&entry.270726639=";
+    var entryImg = "&entry.1972388673=";
 
-    var baseURL = 'https://docs.google.com/a/ull.edu.es/forms/d/e/1FAIpQLSdcWOj-6pJpZ0dp9WcHnCyG_-V5lBKkhGzoYLQKmRe8_aEnjw/formResponse?';
+    var baseURL = 'https://docs.google.com/a/ull.edu.es/forms/d/e/1FAIpQLScmhoSniRprkX-ilWAru2JESiAq7ppBxHyzT3p_d1-qrxgdOg/formResponse?';
     var submitRef = '&submit=Submit';
     var submitURL = (baseURL + entryName + inputName + entryPasswd + inputPasswd + entryImg + inputImg + submitRef);
     console.log(submitURL);
