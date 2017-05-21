@@ -26,3 +26,8 @@ Realizar un proyecto de red social mediante una metodología de desarrollo ágil
 - Chat
 - Búsqueda
 - Ajustes
+
+## Consideraciones
+
+- Es recomendable visionar la página en Google Chrome o Firefox
+- Se deben permitir los pop-ups en la página
