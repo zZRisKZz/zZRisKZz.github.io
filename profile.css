@@ -22,17 +22,24 @@
 
 /** INFORMACIóN **/
 
-.profile img{
-  margin-right:14px;
-  margin-left:14px;
-  height:75px;
-  width:75px;
-  display: inline-block;
+.profile{
+    padding: 50px;
+}
+
+.profile .pic{
+    float:left;
+    height: 400px;
+}
+
+.profile .pic img{
+  height:150px;
+  width:150px;
 }
 
 .profile .info{
-  display: inline-block;
+  height: 400px;
+  float:left;
   font-size:14px;
-  margin-left: 10px;
+  margin-left: 30px;;
   font-family: 'Roboto';
 }
