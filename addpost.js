@@ -62,11 +62,9 @@ function postText(){
   newW = window.open(submitURL);
   setTimeout(function(){
     newW.close();
+    alert("Publicación creada");
+    setTimeout(function(){
+      window.location.reload(true);
+    },2000);
   },1000);
-    
-  alert("Publicación creada");
-  setTimeout(function(){
-    window.location.reload(true);
-  },2000);
-  
 }
