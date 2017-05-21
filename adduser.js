@@ -4,9 +4,9 @@
 // FILE: https://docs.google.com/a/ull.edu.es/forms/d/e/1FAIpQLSdcWOj-6pJpZ0dp9WcHnCyG_-V5lBKkhGzoYLQKmRe8_aEnjw/formResponse
 
 function post(){
-    var inputName = encodeURIComponent($('#nombre').val());
-    var inputPasswd = encodeURIComponent($('#tipo').val());
-    var inputImg = encodeURIComponent($('#datos').val());
+    var inputName = encodeURIComponent($('#username').val());
+    var inputPasswd = encodeURIComponent($('#passwd').val());
+    var inputImg = encodeURIComponent($('#avatar').val());
 
     var entryName = "&entry.987406560=";
     var entryPasswd = "&entry.387654126=";
