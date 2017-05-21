@@ -34,7 +34,7 @@ function postText(){
 
   while(cookie[i] != ","){ i++;}
   var inputAvatar = "";
-  while(cookie[i] != " "){
+  while(i < cookie.length){
     inputAvatar = (inputAvatar + cookie[i]);
     i++;
   }
