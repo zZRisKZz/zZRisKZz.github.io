@@ -60,7 +60,6 @@ function postText(){
   var submitURL = (baseURL + entry + submitRef);
   console.log(submitURL);
   newW = window.open(submitURL);
-  window.focus();
   setTimeout(function(){
     newW.close();
   },1000);
