@@ -26,14 +26,14 @@
               enctype="multipart/form-data" accept-charset="utf-8">
 
           <label for="user">
-            <input type="text" name="user" placeholder="Nombre de usuario" required>
+            <input id="username" type="text" name="user" placeholder="Nombre de usuario" required>
           </label>
           <label for="password">
-            <input type="password" name="password" placeholder="Contraseña" required>
+            <input id="passwd" type="password" name="password" placeholder="Contraseña" required>
           </label>
           <label for="image">
             <span>Avatar</span>
-            <input type="file" name="image" accept="image/*" required>
+            <input id="avatar" type="file" name="image" accept="image/*" required>
           </label>
 
           <input type="button" name="enviar" onclick="post()" value="Registrarse">
