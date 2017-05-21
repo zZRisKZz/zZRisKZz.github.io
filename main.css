@@ -61,6 +61,17 @@ body {
   height:1px;
 }
 
+/** TITULO **/
+
+.title {
+  text-align: center;
+  height:40px;
+  margin:20px 0;
+  color: #64B5F6;
+  font-size: 30pt;
+  font-family: 'Oleo Script';
+}
+
 /**** CONTENIDO ****/
 
 .container {
