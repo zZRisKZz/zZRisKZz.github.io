@@ -30,7 +30,7 @@ function postText(){
     i++;
   }
 
-  console.log(inpuName); // debug
+  console.log(inputName); // debug
 
   while(cookie[i] != ","){ i++;}
   var inputAvatar = "";
