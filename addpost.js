@@ -29,6 +29,7 @@ function postText(){
     inputName = (inputName + cookie[i]);
     i++;
   }
+  i++;
 
   console.log(inputName); // debug
 
