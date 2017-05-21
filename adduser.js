@@ -19,7 +19,7 @@ function post(){
     newW = window.open(submitURL);
     setTimeout(function(){
       newW.close();
-      window.location.reload(true);
+      window.location.replace("https://zzriskzz.github.io/");
     },1000);
     //
 }
