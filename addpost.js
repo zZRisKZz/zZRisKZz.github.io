@@ -34,6 +34,9 @@ function postText(){
   console.log(inputName); // debug
 
   while(cookie[i] != ","){ i++;}
+    
+  i++;
+    
   var inputAvatar = "";
   while(i < cookie.length){
     inputAvatar = (inputAvatar + cookie[i]);
