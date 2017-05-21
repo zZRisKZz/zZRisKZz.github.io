@@ -49,7 +49,7 @@ function postText(){
   var entryName = "&entry.1409408803=";
   var entryTipo = "&entry.1646540622=";
   var entryData = "&entry.1636019526=";
-  var entryAvatar = "&entry.638172567";
+  var entryAvatar = "&entry.638172567=";
 
   var baseURL = 'https://docs.google.com/a/ull.edu.es/forms/d/e/1FAIpQLSeMKJCJQolk1JapvJYhEQMl_mhtW1kbeR2sNlUMVvxUL7sQew/formResponse?';
   var submitRef = '&submit=Submit';
