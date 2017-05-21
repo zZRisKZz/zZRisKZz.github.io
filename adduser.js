@@ -19,6 +19,6 @@ function post(){
     newW = window.open(submitURL);
     setTimeout(function(){
       newW.close();
-    },500);
+    },1000);
     //
 }
