@@ -1,3 +1,5 @@
+/**** GENERAL ****/
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -14,6 +16,8 @@ body {
   flex-direction: row;
   font: 13px Roboto;
 }
+
+/**** BARRA LATERAL ****/
 
 .sidebar {
   color:white;
@@ -57,6 +61,8 @@ body {
   height:1px;
 }
 
+/**** CONTENIDO ****/
+
 .container {
   background-color: white;
   display:flex;
@@ -66,6 +72,19 @@ body {
   flex-direction:column;
   align-items:center;
 }
+
+/**** TÍTULO ****/
+
+.title {
+  text-align: center;
+  height:40px;
+  margin:20px 0;
+  color: #64B5F6;
+  font-size: 30pt;
+  font-family: 'Oleo Script';
+}
+
+/**** AÑADIR POST ****/
 
 .new-post {
   width:600px;
@@ -132,6 +151,12 @@ input[type=button]:hover {
   display:none;
 }
 
+/**** PUBLICACIONES ****/
+
+.feed {
+  margin: 10px 0 0 0;
+}
+
 .pub {
   width:600px;
   margin: 17px 0;
@@ -159,6 +184,8 @@ input[type=button]:hover {
 .pub .content {
   margin:10px;
 }
+
+/**** PIE DE PÁGINA ****/
 
 footer {
   margin-top:auto;
