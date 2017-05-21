@@ -72,9 +72,9 @@ $(document).ready(function(){
       var data = entry;
       for(i = 5; i < data.length; i+=5){
         var vData =  [
-          data[i]["gs$cell"]["$t"],
+          data[i+1]["gs$cell"]["$t"],
           data[i+3]["gs$cell"]["$t"],
-          data[i+5]["gs$cell"]["$t"]
+          data[i+4]["gs$cell"]["$t"]
         ];
         addPost(parent, vData);
       }
