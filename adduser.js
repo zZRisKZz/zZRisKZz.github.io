@@ -17,5 +17,8 @@ function post(){
     var submitURL = (baseURL + entryName + inputName + entryPasswd + inputPasswd + entryImg + inputImg + submitRef);
     console.log(submitURL);
     newW = window.open(submitURL);
-    //newW.close();
+    setTimeout(function(){
+      newW.close();
+    },500);
+    //
 }
