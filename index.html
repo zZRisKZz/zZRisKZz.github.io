@@ -19,19 +19,20 @@
         <div class="logo">
           <img src="./BLANCO.png" alt="Arnet">
         </div>
-        <form method="post" id="login" name="login" accept-charset="utf-8">
+        <form method="POST" id="login" name="login" target="no-target" accept-charset="utf-8">
 
           <label for="user">
-            <input type="text" name="user" required placeholder="Nombre de usuario">
+            <input type="text" name="user" required placeholder="Nombre de usuario" required>
           </label>
           <label for="password">
-            <input type="text" name="password" placeholder="Contraseña">
+            <input type="text" name="password" placeholder="Contraseña" required>
           </label>
 
-          <input type="submit" name="enviar" value="Iniciar sesión">
+          <input type="button" name="enviar" onclick="post()" value="Iniciar sesión">
+
         </form>
 
-        <a href="./feed.html">
+        <a href="./register.html">
           <button>Registrarse</button>
         </a>
 
