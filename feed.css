@@ -60,6 +60,38 @@ body {
   padding:0;
   width:100%;
   height:100vh;
+  flex-direction:column;
+  align-items:center;
+}
+
+.feed {
+}
+
+.pub {
+  width:600px;
+  margin: 17px 0;
+  border:solid 1px #64B5F6;
+  border-radius: 7px;
+  box-shadow:1px 1px 10px #64B5F6,
+            -1px -1px 10px #64B5F6;
+}
+
+.pub .user {
+  height:40px;
+  margin: 7px;
+}
+
+.pub .user img {
+  height:40px;
+}
+.pub .user span {
+  position:relative;
+  bottom:15px;
+  font-size:16px;
+}
+
+.pub .content {
+  margin:8px;
 }
 
 footer {
