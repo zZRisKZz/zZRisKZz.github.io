@@ -51,7 +51,7 @@ $(document).ready(function(){
       container.append(head);
       container.append(content);
 
-      parent.preppend(container);
+      parent.prepend(container);
     }
 
     function writeData(p, data){
