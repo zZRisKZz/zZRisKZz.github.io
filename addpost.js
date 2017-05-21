@@ -64,4 +64,7 @@ function postText(){
   setTimeout(function(){
     newW.close();
   },3000);
+    
+  alert("Publicación creada");
+  window.location.reload(true);
 }
