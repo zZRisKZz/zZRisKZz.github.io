@@ -61,7 +61,7 @@
           <form method="POST" id="post-text" name="post-text" target="no-target"
                 accept-charset="utf-8">
 
-            <textarea form="post-text" placeholder="¿Qué te cuentas?" required></textarea>
+            <textarea id="txt" form="post-text" placeholder="¿Qué te cuentas?" required></textarea>
 
             <input type="button" name="enviar" onclick="postText()" value="Publicar">
 
@@ -72,7 +72,7 @@
           <form method="POST" id="post-img" name="post-img" target="no-target"
                 enctype="multipart/form-data" accept-charset="utf-8">
 
-            <input type="file" name="image" accept="image/*" required>
+            <input id="img" type="file" name="image" accept="image/*" required>
 
             <input type="button" name="enviar" onclick="postImg()" value="Publicar">
 
