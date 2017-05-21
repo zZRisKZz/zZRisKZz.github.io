@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto|Oleo+Script" rel="stylesheet">
     <script src="https://use.fontawesome.com/5bbbb12377.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="./posting.js"></script>
     <script src="addPostToFeed.js"></script>
   </head>
 
@@ -45,57 +46,43 @@
 
     <div class="container">
 
-      <div class="feed">
+      <div class="new-post">
 
-        <!-- ESTO ES DE MENTIRA -->
-        <!--
-        <div class="pub">
-          <div class="user">
-            <img src="https://cdn.pixabay.com/user/2015/01/20/20-56-42-330_250x250.jpg" alt="avatar">
-            <span>Mireia Scholz</span>
-          </div>
-          <div class="content">
-            <p>LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM </p>
-          </div>
+        <div class="p1">
+          <p>Añadir publicación</p>
+          <i class="fa fa-plus" onclick="addNewPost()" id="icon" aria-hidden="true"></i> <!-- fa-minus -->
         </div>
-        <div class="pub">
-          <div class="user">
-            <img src="https://cdn.pixabay.com/user/2015/01/20/20-56-42-330_250x250.jpg" alt="avatar">
-            <span>Gabriel Rodríguez</span>
-          </div>
-          <div class="content">
-            <p>HOLA</p>
-          </div>
+        <div id="p2" class="hidden">
+          <span onclick="addText()">Texto</span>
+          <span onclick="addImg()">Imagen</span>
         </div>
-        <div class="pub">
-          <div class="user">
-            <img src="https://cdn.pixabay.com/user/2015/01/20/20-56-42-330_250x250.jpg" alt="avatar">
-            <span>Mireia Scholz</span>
-          </div>
-          <div class="content">
-            <p> AJSDGH LAKJSDFH LKJ</p>
-          </div>
+
+        <div id="texto" class="texto hidden">
+          <form method="POST" id="post-text" name="post-text" target="no-target"
+                accept-charset="utf-8">
+
+            <textarea form="post-text" placeholder="¿Qué te cuentas?" required></textarea>
+
+            <input type="button" name="enviar" onclick="postText()" value="Publicar">
+
+          </form>
         </div>
-        <div class="pub">
-          <div class="user">
-            <img src="https://cdn.pixabay.com/user/2015/01/20/20-56-42-330_250x250.jpg" alt="avatar">
-            <span>Mireia Scholz</span>
-          </div>
-          <div class="content">
-            <p>LOREM IPSUM LOREM IPSUM LOREM IPSUM </p>
-          </div>
+
+        <div id="imagen" class="imagen hidden">
+          <form method="POST" id="post-img" name="post-img" target="no-target"
+                enctype="multipart/form-data" accept-charset="utf-8">
+
+            <input type="file" name="image" accept="image/*" required>
+
+            <input type="button" name="enviar" onclick="postImg()" value="Publicar">
+
+          </form>
         </div>
-        <div class="pub">
-          <div class="user">
-            <img src="https://cdn.pixabay.com/user/2015/01/20/20-56-42-330_250x250.jpg" alt="avatar">
-            <span>Javier Esteban</span>
-          </div>
-          <div class="content">
-            <p>LOREM IPSUM LOREM IPSUM LOREM IPSUM </p>
-          </div>
-        </div>
-      -->
-        <!-- HASTA AQUÍ -->
+
+      </div>
+
+
+      <div class="feed">
 
       </div>
 
