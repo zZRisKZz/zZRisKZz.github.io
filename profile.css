@@ -1,0 +1,136 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  background-color:white;
+  color: black;
+  margin:0;
+  padding:0;
+  width:100vw;
+  display:flex;
+  flex-direction: row;
+  font: 13px Roboto;
+}
+
+.sidebar {
+  color:white;
+  z-index: 10;
+  width:60px;
+  height:100vh;
+  margin:0;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #64B5F6;
+}
+
+.sidebar .fa {
+  display:block;
+  font-size:40px;
+  padding:9px;
+  text-align: center;
+}
+
+.sidebar .selected {
+  background-color: white;
+  color:#64B5F6;
+}
+
+.sidebar a, .sidebar a:visited, .sidebar a:link {
+  text-decoration:none;
+  color:white;
+}
+
+.fa-comment {
+  font-size: 25px;
+}
+
+.sidebar .separador {
+  background-color: white;
+  display:block;
+  margin:0;
+  width: 60px;
+  height:1px;
+}
+
+.container {
+  background-color: white;
+  display:flex;
+  padding:0;
+  width:100%;
+  height:100vh;
+  flex-direction:column;
+  align-items:center;
+}
+
+.feed {
+}
+
+.profile {
+  width:600px;
+  height:100%;
+  margin: 5px 0;
+  padding: 14px;
+  border:solid 1px #64B5F6;
+  border-radius: 7px;
+  box-shadow:1px 1px 10px #64B5F6,
+            -1px -1px 10px #64B5F6;
+}
+
+.profile .title {
+  text-align: center;
+  height:40px;
+  margin-bottom: 70px;
+}
+
+.profile .title p{
+  color: #64B5F6;
+  font-size: 30pt;
+  font-family: 'Oleo Script';
+}
+
+.profile .info{
+  font-size:14px;
+  margin-left: 10px;
+  font-family: 'Roboto';
+}
+
+.pub .user img {
+  height:40px;
+}
+.pub .user span {
+  position:relative;
+  bottom:15px;
+  margin:10px;
+  font-size:16px;
+}
+
+.pub .content {
+  margin:8px;
+}
+
+footer {
+  margin-top:auto;
+  padding:0;
+  height:50px;
+  width:100%;
+  text-align:center;
+}
+
+footer p {
+  margin:15px 0;
+}
+
+footer a, footer a:visited {
+  color:black;
+}
+
+footer a {
+  text-decoration:none;
+  transition: 0.5s linear;
+}
+
+footer a:hover {
+  color: #64B5F6;
+}
