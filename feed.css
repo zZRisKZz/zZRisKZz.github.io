@@ -87,6 +87,7 @@ body {
 .pub .user span {
   position:relative;
   bottom:15px;
+  margin:10px;
   font-size:16px;
 }
 
