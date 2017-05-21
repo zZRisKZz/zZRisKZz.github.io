@@ -83,6 +83,10 @@ body {
   align-self: center;
 }
 
+.new-post .p1 p {
+  font-weight: bold;
+}
+
 #p2 span {
   margin:0 120px;
 }
@@ -108,19 +112,19 @@ input[type=file] {
 }
 
 input[type=button] {
-  border: 1px solid #64B5F6;
+  border: 1px solid white;
   border-radius: 4px;
-  background-color: white;
+  background-color: #64B5F6;
   font-size: 15px;
-  color:#64B5F6;
+  color:white;
   height:35px;
   padding:0 6px;
   transition: 0.5s linear;
 }
 
 input[type=button]:hover {
-  background-color: #64B5F6;
-  color:white;
+  background-color: white;
+  color:#64B5F6;
 }
 
 .hidden {
