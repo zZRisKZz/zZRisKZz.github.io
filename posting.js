@@ -1,14 +1,20 @@
 function addNewPost() {
   var icon = document.getElementById('icon');
   var cosas = document.getElementById('p2');
+  var txt_form = document.getElementById('texto');
+  var img_form = document.getElementById('imagen');
 
   if (icon.getAttribute("class") == "fa fa-plus") {
     icon.setAttribute("class", "fa fa-minus");
     cosas.setAttribute("class", "");
+    txt_form.setAttribute("class", "texto hidden");
+    img_form.setAttribute("class", "imagen hidden");
   }
   else {
     icon.setAttribute("class", "fa fa-plus");
     cosas.setAttribute("class", "hidden");
+    txt_form.setAttribute("class", "texto hidden");
+    img_form.setAttribute("class", "imagen hidden");
   }
 
 }
@@ -20,9 +26,8 @@ function addText() {
 
   if (form.getAttribute("class") == "texto hidden") {
     form.setAttribute("class", "texto");
-    img_form.setAttribute("class", "imagen hidden")
+    img_form.setAttribute("class", "imagen hidden");
   }
-
 
 }
 
@@ -33,6 +38,6 @@ function addImg() {
 
   if (form.getAttribute("class") == "imagen hidden") {
     form.setAttribute("class", "imagen");
-    txt_form.setAttribute("class", "texto hidden")
+    txt_form.setAttribute("class", "texto hidden");
   }
 }
